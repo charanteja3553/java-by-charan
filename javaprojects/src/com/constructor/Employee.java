@@ -28,13 +28,9 @@ public class Employee {
 		e2.Employeeinfo();
 		e1.Employeeinfo();
 		e3.Employeeinfo();
-		Employee();
+	
 	}
 
-	private static int Employee() {
-		
-		return 0;
-	}
 
 	void Employeeinfo() {
 		System.out.println("******  EMP INFO  *********");
