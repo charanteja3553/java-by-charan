@@ -35,11 +35,11 @@ class Bugtracker {
     }
 
     void assignToDeveloper(int id, String developerName) {
-        if (bugId == id) {
+  
             assignedDeveloper = developerName;
             updateStatus("In Development");
         }
-    }
+ 
 
     void updateStatus(String newStatus) {
         status = newStatus;
