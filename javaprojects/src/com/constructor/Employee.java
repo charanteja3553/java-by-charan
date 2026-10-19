@@ -6,19 +6,18 @@ public class Employee {
 	String name;
 	double sal;
 
-	 Employee(int id, String name, double sal) {
+	Employee(int id, String name, double sal) {
 
 		this.id = id;
 		this.name = name;
 		this.sal = sal;
 	}
 
- Employee() {
+	Employee() {
 		id = 0;
 		name = "pradeep";
 		sal = 10000;
 	}
- 
 
 	public static void main(String[] args) {
 
@@ -28,9 +27,8 @@ public class Employee {
 		e2.Employeeinfo();
 		e1.Employeeinfo();
 		e3.Employeeinfo();
-	
-	}
 
+	}
 
 	void Employeeinfo() {
 		System.out.println("******  EMP INFO  *********");

@@ -8,7 +8,8 @@ public class Method1 {
 
 		System.out.println("main mthod ended");
 	}
-
+// we use methods for reuseability
+	
 	public static void welcome() {
 		System.out.println("Hello");
 	}
